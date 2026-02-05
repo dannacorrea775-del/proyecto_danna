@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas - Desarrollo Web</title>
+
+    <meta name="description" content="Tablas " />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS PRINCIPAL -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="nav container">
+        <a href="index.html" class="logo">UPA</a>
+
+        <button class="nav-toggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="elementos.html">Elementos</a></li>
+            <li><a href="tablas.html" class="active">Tablas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="section">
+        <div class="container">
+
+            <h2>Práctica de Tablas en HTML</h2>
+
+            <div style="overflow-x:auto;">
+                <table border="1" width="100%" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Nombre</th>
+                            <th>Paterno</th>
+                            <th>Materno</th>
+                            <th>Edad</th>
+                            <th>Rol</th>
+                            <th>Descripción</th>
+                            <th>Imagen</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Gicela</td>
+                            <td>Correa</td>
+                            <td>Aguilar</td>
+                            <td>38</td>
+                            <td>Madre</td>
+                            <td>Persona responsable de la familia.</td>
+                            <td style="text-align:center;">
+                                <img 
+                                    src="assets/images/mama.webp"
+                                    alt="Madre"
+                                    width="80">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Danna Jaqueline</td>
+                            <td>Miranda</td>
+                            <td>Correa</td>
+                            <td>23</td>
+                            <td>Hija</td>
+                            <td>Estudiante universitaria.</td>
+                            <td style="text-align:center;">
+                                <img 
+                                    src="assets/images/nana.webp"
+                                    alt="Hija"
+                                    width="80">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Edgar Santiago</td>
+                            <td>Miranda</td>
+                            <td>Correa</td>
+                            <td>21</td>
+                            <td>Hijo</td>
+                            <td>Persona amable y trabajadora.</td>
+                            <td style="text-align:center;">
+                                <img 
+                                    src="assets/images/santiago.jpeg"
+                                    alt="Hijo"
+                                    width="70">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Julio César</td>
+                            <td>Miranda</td>
+                            <td>Correa</td>
+                            <td>17</td>
+                            <td>Hijo</td>
+                            <td>Persona alegre y trabajadora.</td>
+                            <td style="text-align:center;">
+                                <img 
+                                    src="assets/images/julio.webp"
+                                    alt="Hijo"
+                                    width="70">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 - Práctica HTML</p>
+    </div>
+</footer>
+
+</body>
+</html>

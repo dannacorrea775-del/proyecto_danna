@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tipografía y estilos globales -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <nav class="nav container">
+        <a href="index.html" class="logo">UPA</a>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+            <li><a href="index.html#nosotros">Nosotros</a></li>
+            <li><a href="elementos.html" class="active">Elementos</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="index.html#contacto" class="btn btn-contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main class="section">
+    <div class="container">
+
+        <header class="section-header">
+            <h1>Unidad II. HTML, XML y CSS</h1>
+            <p>El lenguaje fundamental de la web: HTML</p>
+        </header>
+
+        <p>
+            <strong>HTML </strong> es el lenguaje de marcado estándar
+            para crear páginas web. Desde los conceptos básicos hasta las técnicas avanzadas,
+            este curso te llevará desde cero hasta convertirte en un experto en HTML.
+        </p>
+
+        <h2>¿Qué es HTML?</h2>
+        <p>
+            HTML es un lenguaje de marcado que se utiliza para estructurar el contenido de una
+            página web. Utiliza una serie de elementos (tags) para definir diferentes partes de
+            una página, como encabezados, párrafos, imágenes, enlaces y formularios.
+        </p>
+
+        <h2>Conceptos Básicos de HTML</h2>
+        <h3>1. Estructura Básica de un Documento HTML</h3>
+
+        <h3>Tags y Elementos</h3>
+        <ul>
+            <li><code>&lt;p&gt;</code> para párrafos</li>
+            <li><code>&lt;h1&gt; a &lt;h6&gt;</code> para encabezados</li>
+            <li><code>&lt;img&gt;</code> para imágenes</li>
+            <li><code>&lt;a&gt;</code> para enlaces</li>
+            <li><code>&lt;div&gt;</code> y <code>&lt;span&gt;</code> para agrupar contenido</li>
+            <li><code>&lt;ul&gt;, &lt;ol&gt; y &lt;li&gt;</code> para listas</li>
+        </ul>
+
+        <h3>Atributos</h3>
+        <ul>
+            <li><strong>src</strong> en <code>&lt;img&gt;</code></li>
+            <li><strong>href</strong> en <code>&lt;a&gt;</code></li>
+            <li><strong>id</strong> y <strong>class</strong> para identificar elementos</li>
+        </ul>
+
+        <section class="section section-alt">
+    <div class="container">
+
+        <header class="section-header">
+            <h2>Avanzando en HTML</h2>
+        </header>
+
+        <h3>Formularios</h3>
+        <p>
+            Los formularios permiten a los usuarios interactuar con la página web.
+            Utilizamos etiquetas como <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>,
+            <code>&lt;textarea&gt;</code> y <code>&lt;button&gt;</code> para construir formularios.
+        </p>
+
+        <form class="form">
+            <label>
+                Nombre:
+                <input type="text" placeholder="Tu nombre">
+            </label>
+
+            <label>
+                Correo:
+                <input type="email" placeholder="correo@ejemplo.com">
+            </label>
+
+            <label>
+                Mensaje:
+                <textarea rows="4" placeholder="Escribe tu mensaje"></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+
+        <h3>Multimedia</h3>
+        <p>
+            HTML admite varios tipos de contenido multimedia, como imágenes, audio y video.
+            Utilizamos etiquetas como <code>&lt;img&gt;</code>, <code>&lt;audio&gt;</code> y
+            <code>&lt;video&gt;</code> para incrustar estos elementos en una página web.
+        </p>
+
+        <figure>
+            <img src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg" alt="Ejemplo multimedia">
+            <figcaption>Ejemplo de imagen embebida en HTML</figcaption>
+        </figure>
+
+        <h3>Semántica HTML5</h3>
+        <p>
+            HTML5 introduce nuevos elementos semánticos que proporcionan un significado claro al
+            contenido, lo que mejora la accesibilidad y el SEO.
+        </p>
+
+        <ul>
+            <li><code>&lt;header&gt;</code></li>
+            <li><code>&lt;footer&gt;</code></li>
+            <li><code>&lt;nav&gt;</code></li>
+            <li><code>&lt;section&gt;</code></li>
+            <li><code>&lt;article&gt;</code></li>
+            <li><code>&lt;aside&gt;</code></li>
+        </ul>
+
+        <h2>Buenas Prácticas y Recomendaciones</h2>
+
+        <h3>Validez del HTML</h3>
+        <p>
+            Es importante que el código HTML sea válido según las especificaciones del W3C
+            para garantizar la compatibilidad y el rendimiento.
+        </p>
+
+        <h3>Accesibilidad</h3>
+        <p>
+            Diseña tus páginas web con accesibilidad en mente para que puedan ser utilizadas
+            por personas con discapacidades.
+        </p>
+
+        <h3>Optimización para Motores de Búsqueda (SEO)</h3>
+        <p>
+            Utiliza etiquetas semánticas adecuadas y estructura tu contenido de manera lógica
+            para mejorar la visibilidad en los motores de búsqueda.
+        </p>
+
+        <h3>Responsive Design</h3>
+        <p>
+            Asegúrate de que tu página web sea compatible con diferentes dispositivos y tamaños
+            de pantalla utilizando CSS para el diseño responsivo.
+        </p>
+
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <header class="section-header">
+            <h2>Etiquetas de contenido y texto</h2>
+            <p>Las etiquetas de contenido agrupan el contenido que hay en su interior.</p>
+        </header>
+
+        <!-- Elemento <p> -->
+        <h3>&lt;p&gt; Párrafo</h3>
+        <p>
+            Define una parte que debe mostrarse como un párrafo. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+        <!-- Elemento <hr> -->
+        <h3>&lt;hr&gt; Línea horizontal</h3>
+        <p>Representa un cambio temático entre párrafos.</p>
+        <hr>
+
+        <!-- Elemento <pre> -->
+        <h3>&lt;pre&gt; Texto preformateado</h3>
+        <pre>
+Este texto conserva los espacios,
+saltos de línea
+    y tabulaciones.
+        </pre>
+
+        <!-- Elemento <blockquote> -->
+        <h3>&lt;blockquote&gt; Cita</h3>
+        <blockquote>
+            “Con blockquote representamos un contenido citado desde otra fuente.”
+        </blockquote>
+
+        <!-- Elemento <ol> -->
+        <h3>&lt;ol&gt; Lista ordenada</h3>
+        <ol>
+            <li>Elemento uno</li>
+            <li>Elemento dos</li>
+            <li>Elemento tres</li>
+        </ol>
+
+        <!-- Elemento <ul> -->
+        <h3>&lt;ul&gt; Lista no ordenada</h3>
+        <ul>
+            <li>Elemento A</li>
+            <li>Elemento B</li>
+            <li>Elemento C</li>
+        </ul>
+
+        <!-- Elementos <dl>, <dt>, <dd> -->
+        <h3>&lt;dl&gt; Lista de definiciones</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lenguaje de marcado para la web.</dd>
+
+            <dt>CSS</dt>
+            <dd>Lenguaje de estilos para diseño web.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Lenguaje de programación del navegador.</dd>
+        </dl>
+
+        <!-- Elementos <figure> y <figcaption> -->
+        <h3>&lt;figure&gt; y &lt;figcaption&gt;</h3>
+        <figure>
+            <img src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg" 
+                 alt="Ejemplo de figura en HTML">
+            <figcaption>Figura 1: Ejemplo de imagen con descripción</figcaption>
+        </figure>
+
+        <!-- Elemento <div> -->
+        <h3>&lt;div&gt; Contenedor genérico</h3>
+        <div class="card">
+            Este es un contenedor tipo <strong>div</strong>, usado para agrupar contenido.
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <header class="section-header">
+      <h2>Etiquetas de contenido y texto</h2>
+      <p>Ejemplos funcionales de los elementos básicos de HTML</p>
+    </header>
+
+    <h3>Elemento &lt;p&gt;</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia beatae aliquam non natus aut
+      id sint ea? Natus tempore hic reprehenderit temporibus minima nisi, quia, magnam omnis,
+      officiis molestiae earum.
+    </p>
+
+    <h3>Elemento &lt;hr&gt;</h3>
+    <hr>
+
+    <h3>Elemento &lt;pre&gt;</h3>
+    <pre>
+Contenido preformateado
+Conserva los espacios,
+los saltos de línea
+y los tabuladores del texto original.
+    </pre>
+
+    <h3>Elemento &lt;blockquote&gt;</h3>
+    <blockquote>
+      Con blockquote representamos un contenido citado desde otra fuente.
+    </blockquote>
+
+    <h3>Lista ordenada &lt;ol&gt;</h3>
+    <ol>
+      <li>Lista ordenada</li>
+      <li>Lista ordenada</li>
+      <li>Lista ordenada</li>
+    </ol>
+
+    <h3>Lista no ordenada &lt;ul&gt;</h3>
+    <ul>
+      <li>Lista sin orden</li>
+      <li>Lista sin orden</li>
+      <li>Lista sin orden</li>
+    </ul>
+
+    <h3>Lista de definición &lt;dl&gt;</h3>
+    <dl>
+      <dt>Término 1</dt>
+      <dd>Definición del término 1.</dd>
+
+      <dt>Término 2</dt>
+      <dd>Definición del término 2.</dd>
+
+      <dt>Término 3</dt>
+      <dd>Definición del término 3.</dd>
+    </dl>
+
+    <h3>Elemento &lt;figure&gt; y &lt;figcaption&gt;</h3>
+    <figure>
+      <img
+        src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg"
+        alt="Usabilidad"
+        style="max-width: 200px;"
+      >
+      <figcaption>Figura 1</figcaption>
+    </figure>
+
+    <h3>Elemento &lt;div&gt;</h3>
+    <div class="card">
+      Contenedor tipo div
+    </div>
+
+    <h3>Atributos de listas</h3>
+
+    <h4>Lista ordenada con type y start</h4>
+    <ol type="A" start="3">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ol>
+
+    <h4>Lista ordenada invertida</h4>
+    <ol type="1" reversed>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ol>
+
+    <h4>Lista no ordenada con cuadrados</h4>
+    <ul type="square">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+  </div>
+</section>
+
+<h3>Hiperenlaces: valores del atributo <code>href</code></h3>
+
+<p>
+  El atributo <strong>href</strong> crea un enlace a otra página o archivo. Además,
+  también puede enlazar a una sección de la misma página, a un correo electrónico
+  o a un teléfono.
+</p>
+
+<p>
+  <!-- Enviar un correo con mailto -->
+  <a href="mailto:info@eniun.com">Enviar correo a Eniun</a><br>
+
+  <!-- Llamar por teléfono con tel -->
+  <a href="tel:+34666666666">Llamar por teléfono a 666 666 666</a>
+</p>
+
+<h3>Valores del atributo <code>target</code></h3>
+
+<p>
+  El atributo <strong>target</strong> en HTML se utiliza para especificar dónde se debe
+  abrir el enlace cuando un usuario hace clic en él.
+</p>
+
+<ul>
+  <li><strong>_blank</strong>: Abre el enlace en una nueva ventana o pestaña.</li>
+  <li><strong>_self</strong>: Abre el enlace en la misma ventana (valor por defecto).</li>
+  <li><strong>_parent</strong>: Abre el enlace en el marco padre.</li>
+  <li><strong>_top</strong>: Abre el enlace en la ventana principal del navegador.</li>
+</ul>
+
+<h3>Atributo <code>download</code></h3>
+
+<p>
+  El atributo <strong>download</strong> permite que un enlace descargue un archivo
+  en lugar de abrirlo en el navegador.
+</p>
+
+<a href="ruta/al/archivo.pdf" download="miarchivo.pdf">
+  Descargar PDF
+</a>
+
+
+</body>
+</html>
+
